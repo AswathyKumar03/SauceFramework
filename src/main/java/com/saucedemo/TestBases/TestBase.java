@@ -59,8 +59,8 @@ public class TestBase {
         	 DEFAULT_BROWSER = Browsers.valueOf(browserName.toUpperCase());
         	
         }
-  
-//
+
+
         switch (DEFAULT_BROWSER) {
             case CHROME:
                 WebDriverManager.chromedriver().setup();
